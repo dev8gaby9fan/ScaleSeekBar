@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScaleSeekBar">
+        <attr name="topTextSize" format="dimension"/>
+        <attr name="topTextColor" format="color"/>
+        <attr name="topTextMargin" format="dimension"/>
+        <attr name="normal_thumb" format="reference"/>
+        <attr name="thumb" format="reference"/>
+        <attr name="dot_num" format="integer"/>
+        <attr name="thumbSize" format="dimension"/>
+        <attr name="progressHeight" format="dimension"/>
+        <attr name="progressColor" format="color"/>
+        <attr name="normalBackground" format="color"/>
+        <attr name="dotPadding" format="dimension"/>
+    </declare-styleable>
+</resources>

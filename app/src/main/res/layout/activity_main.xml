@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.fsh.scaleseekbar.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_show_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#b677fd"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <com.fsh.scaleseekbar.widget.ScaleSeekBar
+        android:id="@+id/time_selector"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        app:topTextColor="@android:color/black"
+        app:topTextSize="12sp"
+        app:topTextMargin="15dp"
+        app:dot_num="5"
+        app:dotPadding="5dp"
+        app:progressHeight="8dp"
+        app:progressColor="#ccabf7"
+        app:normalBackground="#d8d6d6"
+        app:thumb="@drawable/thumb"
+        app:thumbSize="16dp"
+        app:normal_thumb="@drawable/thumb_normal"
+        />
+</LinearLayout>
