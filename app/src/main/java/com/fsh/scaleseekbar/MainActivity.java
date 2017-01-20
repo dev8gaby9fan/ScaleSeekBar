@@ -27,11 +27,13 @@ public class MainActivity extends AppCompatActivity {
         times.add(new WithTag("3小时"));
         times.add(new WithTag("4小时"));
         times.add(new WithTag("5小时"));
-        scaleSeekBar.setTopText(times).setOnItemSelectedListener(new ScaleSeekBar.OnItemSelectedListener() {
+        scaleSeekBar.setTopText(times).
+                setOnItemSelectedListener(new ScaleSeekBar.OnItemSelectedListener() {
             @Override
             public void onItemSelected(int position) {
                 mText.setText("您选择的时间是："+times.get(position).getTag());
             }
         });
+        mText.setText("您选择的时间是："+scaleSeekBar.getSelect().getTag());
     }
 }
